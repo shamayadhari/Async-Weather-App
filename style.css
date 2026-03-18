@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background: #1f2a5a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* Title */
+h1 {
+    color: #cfd8ff;
+    margin-bottom: 20px;
+}
+
+/* Top Section */
+.topSection {
+    display: flex;
+    gap: 20px;
+    width: 800px;
+}
+
+/* Cards */
+.weatherForm,
+.info,
+.console {
+    background: #2b356d;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Equal width cards */
+.weatherForm,
+.info {
+    flex: 1;
+}
+
+/* Headings */
+h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Form */
+#form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Input */
+#city {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* Button */
+#search {
+    background: #ff7a2f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#search:hover {
+    background: #ff5f00;
+}
+
+/* History buttons */
+.historyBtn {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.historyBtn button {
+    background: #ff7a2f;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Weather info */
+.info p {
+    color: #e0e6ff;
+    margin: 6px 0;
+    border-left: 3px solid #ff7a2f;
+    padding-left: 8px;
+}
+
+/* Console section */
+.console {
+    margin-top: 20px;
+    width: 800px;
+}
+
+/* Console box inside */
+.consoleBox {
+    background: #1a214a;
+    border-radius: 6px;
+    padding: 10px;
+    height: 120px;
+    overflow-y: auto;
+    color: #cfd8ff;
+    font-size: 13px;
+}
+
+/* each log line */
+.log {
+    margin: 3px 0;
+}
